@@ -1,6 +1,5 @@
 // database entry file what is real
 const mysql = require('mysql');
-const { HotModuleReplacementPlugin } = require('webpack');
 
 const db = mysql.createConnection({
   user: 'root',
