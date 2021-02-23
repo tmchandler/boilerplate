@@ -7,6 +7,7 @@ var app = express();
 
 app.use(express.json());
 // express static
+app.use(express.static('dist'))
 
 app.get('/donuts', (req, res) => {
   // get all the donos
@@ -38,5 +39,5 @@ app.listen(port, (err) => {
     throw err;
   } else {
     console.log('server running on ' + port);
-  } 
+  }
 })

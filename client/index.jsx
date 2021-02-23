@@ -1,8 +1,11 @@
-// React app entry file
- import React from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App.jsx'
 
 //App component
 
-//List component
-  //DonutList component (individual donut)
+//DonutList component
+//Donut component (individual donut)
 //Form component
+
+ReactDOM.render(<App/>, document.getElementById('root'));
